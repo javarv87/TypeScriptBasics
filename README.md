@@ -20,4 +20,26 @@ Necesitaremos ingresar en nuestra terminal el siguiente comando.
 
 **`npm install -g typescript`**
 
-Con esto estaremos listos para usar TypeScript, crea un archivo con extensión ***.ts***
+Con esto estaremos listos para usar **TypeScript**, crea un archivo con extensión ***.ts***
+
+## Datos básicos de TypeScript
+
+### Variables
+
+En **TypeScript** las variables se declaran igual que en Javascript, pero se especifica que tipo de dato es, por ejemplo:
+
+```javascript
+  // Tipo de dato string
+  var name:string = 'Tu nombre';
+  
+  // Tipo de dato number
+  var age:number = 29;
+  
+  // Tipo de dato boolean
+  var havePets:boolean = true;
+```
+
+Las **variables** tienen la palabra reservada ***"var"*** pero el tipo de dato que se va a utilizar ó estará asignado a la variable se denota con ***"nombreVariable:tipoDato"***, a estos tipos de dato se les denomina **datos primitivos**, y son:
+* string
+* number
+* boolean
